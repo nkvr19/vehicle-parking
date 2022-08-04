@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "email": "vamsijk4577@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "email": "vamsi@gmail.com",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "email": "subhash@gmail.com",
+      "password": "subhash",
+      "id": 3
+    },
+    {
+      "email": "su@gmail.com",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "available-locations": [
+    {
+      "id": 1,
+      "city": "Location A",
+      "availaat": [
+        {
+          "loc": "ABC Shopping Mall"
+        },
+        {
+          "loc": "BCD Shopping Mall"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Location B",
+      "availaat": [
+        {
+          "loc": "ABC Shopping Mall"
+        },
+        {
+          "loc": "BCD Shopping Mall"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Location C",
+      "availaat": [
+        {
+          "loc": "CDE Shopping Mall"
+        },
+        {
+          "loc": "DEF Shopping Mall"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "city": "Location D",
+      "availaat": [
+        {
+          "loc": "EFG Shopping Mall"
+        },
+        {
+          "loc": "FGH Shopping Mall"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "city": "Location E",
+      "availaat": [
+        {
+          "loc": "GHI Shopping Mall"
+        },
+        {
+          "loc": "HIJ Shopping Mall"
+        }
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "email": "su@gmail.com",
+      "location": "ABC Shopping Mall",
+      "date": "2022-07-17T13:27",
+      "vehicleno": "AP37TE4655",
+      "id": 1
+    },
+    {
+      "email": "su@gmail.com",
+      "location": "BCD Shopping Mall",
+      "date": "2022-07-23T14:00",
+      "vehicleno": "AP12TR4532",
+      "id": 2
+    },
+    {
+      "email": "",
+      "location": "ABC Shopping Mall",
+      "date": "",
+      "vehicleno": "",
+      "id": 3
+    },
+    {
+      "email": "",
+      "location": "ABC Shopping Mall",
+      "date": "",
+      "vehicleno": "",
+      "id": 4
+    },
+    {
+      "email": "su@gmail.com",
+      "location": "EFG Shopping Mall",
+      "date": "2022-07-31T19:34",
+      "vehicleno": "456ygv",
+      "id": 5
+    }
+  ]
+}

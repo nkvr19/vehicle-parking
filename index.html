@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- <link rel="stylesheet" href="./css/login.css" /> -->
+  </head>
+  <body>
+    <div class="nav">
+      <button class="nav-des-login">Login</button>
+      <button class="nav-des-register">Register</button>
+      <button class="nav-des-logout hidden">Logout</button>
+      <button class="nav-des-viewbookings hidden">View Bookings</button>
+    </div>
+    <div class="input-div">
+      <input type="text" id="location-input" placeholder="Enter Location" />
+      <button class="search-button">Search</button>
+    </div>
+    <div class="login-popup hidden">
+      <button class="login-close-modal">&times;</button>
+      <div class="loginform">
+        <div class="login-item">
+          <label for="lemail">Email</label>
+          <input type="email" id="lemail" class="input-item" />
+        </div>
+        <div class="login-item">
+          <label for="lpassword">Password</label>
+          <input type="password" id="lpassword" class="input-item" />
+        </div>
+        <button class="login-button">Login</button>
+      </div>
+    </div>
+    <div class="register-popup hidden">
+      <button class="register-close-modal">&times;</button>
+      <div class="register-form">
+        <div class="login-item">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="input-item" />
+        </div>
+        <div class="login-item">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="input-item" />
+        </div>
+        <div class="login-item">
+          <label for="cpassword">Confirm Password</label>
+          <input type="password" id="cpassword" class="input-item" />
+        </div>
+        <button class="register-button">Register</button>
+      </div>
+    </div>
+    <div class="bookslot-popup hidden">
+      <button class="bookslot-close-modal">&times;</button>
+      <p class="info">**Slots booked will be valid for that day**</p>
+      <div class="bookslot-form">
+        <input
+          type="text"
+          id="vehicleno"
+          class="input-item"
+          placeholder="Vehicle Number"
+          required
+        />
+        <input type="text" disabled class="input-item" id="bookslot-loc" />
+        <input type="datetime-local" id="datepicker" class="input-item" />
+        <p class="slots"></p>
+        <button class="bookslot-button" type="button">Book Slot</button>
+      </div>
+    </div>
+    <div class="view-bookings-div hidden">
+      <button class="viewbookings-close-modal">&times;</button>
+      <h3 class="bookings-title">YOUR BOOKINGS</h3>
+      <div class="add-bookings"></div>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="available-areas hidden"></div>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
